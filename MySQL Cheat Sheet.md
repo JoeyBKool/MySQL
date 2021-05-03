@@ -17,7 +17,7 @@ echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 ```
 
 On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/add-mysql-path-windows/
-# Edit system environment variables => go to search "env" -> "Environment Variables" -> under "System variables" section, edit and add a new "Path" as follows: C:\Program Files\MySQL\MySQL Server 8.0\bin
+Edit system environment variables => go to search "env" -> "Environment Variables" -> under "System variables" section, edit and add a new "Path" as follows: C:\Program Files\MySQL\MySQL Server 8.0\bin
 
 
 ## Login
