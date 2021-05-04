@@ -37,6 +37,9 @@ SELECT User, Host FROM mysql.user;
 
 ```sql
 CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
+
+from version 8+, the above will have an error due to MySQL new authentication mode, to continue using the older version, need to add the following line :
+ALTER USER 'someuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'somepassword';
 ```
 
 ## Grant All Priveleges On All Databases
